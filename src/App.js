@@ -1,10 +1,10 @@
 import "./App.css";
-import Conditional from "./Components/conditional-rendering/Conditional";
+import CleanChat from "./Components/clean-chat/CleanChat";
 
 function App() {
   return (
     <>
-      <Conditional />
+      <CleanChat />
     </>
   );
 }
