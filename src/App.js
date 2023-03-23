@@ -1,10 +1,10 @@
 import "./App.css";
-import Slider from "./Components/Slider-clash-game/Slider";
+import SingUp from "./Components/dependency-array/SingUp";
 
 function App() {
   return (
     <>
-      <Slider />
+      <SingUp />
     </>
   );
 }

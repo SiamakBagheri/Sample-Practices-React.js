@@ -27,7 +27,7 @@ const Slider = () => {
     <div className="slide-container">
       <div className="wrapper">
         {!heroes.length ? (
-          <div>Loading . . .</div>
+          <div className="display-1 text-warning fw-bolder">Loading . . .</div>
         ) : (
           <>
             <ArrowBtn direction="prev" handleClick={handlePrev} />
