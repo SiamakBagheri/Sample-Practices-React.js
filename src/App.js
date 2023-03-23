@@ -1,10 +1,10 @@
 import "./App.css";
-import LoginCreateRef from "./Components/login-createRef/login-createRef";
+import Slider from "./Components/Slider-clash-game/Slider";
 
 function App() {
   return (
     <>
-      <LoginCreateRef />
+      <Slider />
     </>
   );
 }
