@@ -1,10 +1,10 @@
 import "./App.css";
-import SingUp from "./Components/dependency-array/SingUp";
+import ShowAuthContext from "./Components/auth-context/ShowAuthContext";
 
 function App() {
   return (
     <>
-      <SingUp />
+      <ShowAuthContext />
     </>
   );
 }
