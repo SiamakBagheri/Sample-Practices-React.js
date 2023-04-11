@@ -1,10 +1,10 @@
 import "./App.css";
-import ShowAuthContext from "./Components/auth-context/ShowAuthContext";
+import CleanChat from "./Components/clean-chat/CleanChat";
 
 function App() {
   return (
     <>
-      <ShowAuthContext />
+      <CleanChat/>
     </>
   );
 }

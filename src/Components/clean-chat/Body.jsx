@@ -16,7 +16,7 @@ function Body(props) {
   });
 
   return (
-    <div className="panel-body">
+    <div className="panel-body" style={{height: "80vh", overflowY: "auto" }}>
       <div className="chats">{chats}</div>
     </div>
   );
